@@ -1,5 +1,5 @@
 services:
-  - type: worker  # ИЗМЕНИТЕ с web на worker!
+  - type: worker
     name: role-bot
     env: python
     plan: free
