@@ -1,6 +1,5 @@
-yaml
 services:
-  - type: web
+  - type: worker  # ИЗМЕНИТЕ с web на worker!
     name: role-bot
     env: python
     plan: free
